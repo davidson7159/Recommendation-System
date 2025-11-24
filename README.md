@@ -37,7 +37,7 @@ Recommendation-system-project/
 │   ├── st_recommender_app.py         # Streamlit frontend application
 |   |── basic_engine_recommender.py   # basci engine - baseline
 |   |── second_engine_recommender.py  # improvement of the basic engine
-|   |── main_recommender_terminal.py  # to run locally in tbe terminal
+|   |── main_recommender_terminal.py  # to run locally in the terminal
 │   └── recommender_functions.py     # Backend logic (Data loading, TF-IDF, Search)
 ├── .gitignore             # Files to ignore (data, cache)
 ├── README.md              # Project documentation
