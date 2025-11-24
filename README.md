@@ -29,18 +29,20 @@ It uses **Natural Language Processing (NLP)** techniques to vectorize text data 
 
 ## 📂 Project Structure
 
-```text
-recsys-project/
+Recommendation-system-project/
 ├── data/
 │   └── raw/               # Contains Anime.csv
 ├── src/
-│   ├── app.py             # Streamlit frontend application
-│   └── recommender.py     # Backend logic (Data loading, TF-IDF, Search)
+│   ├── st_recommender_app.py         # Streamlit frontend application
+|   |── basic_engine_recommender.py   # basci engine - baseline
+|   |── second_engine_recommender.py  # improvement of the basic engine
+|   |── main_recommender_terminal.py  # to run locally in tbe terminal
+│   └── recommender_functions.py     # Backend logic (Data loading, TF-IDF, Search)
 ├── .gitignore             # Files to ignore (data, cache)
 ├── README.md              # Project documentation
 └── requirements.txt       # Python dependencies
 
-🚀 How to Run Locally
+## 🚀 How to Run Locally
 Clone the repository
 
 Bash
