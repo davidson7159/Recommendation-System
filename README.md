@@ -29,6 +29,7 @@ It uses **Natural Language Processing (NLP)** techniques to vectorize text data 
 
 ## 📂 Project Structure
 
+```text
 Recommendation-system-project/
 ├── data/
 │   └── raw/               # Contains Anime.csv
@@ -41,6 +42,7 @@ Recommendation-system-project/
 ├── .gitignore             # Files to ignore (data, cache)
 ├── README.md              # Project documentation
 └── requirements.txt       # Python dependencies
+```
 
 ## 🚀 How to Run Locally
 Clone the repository
